@@ -1,0 +1,10 @@
+{
+  "vite": true,
+  "plugins": [],
+  "postcssOptions": {
+    "plugins": {
+      "tailwindcss": {},
+      "autoprefixer": {}
+    }
+  }
+}
