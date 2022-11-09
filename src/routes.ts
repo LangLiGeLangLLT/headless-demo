@@ -15,27 +15,22 @@ const routerConfig: IRouterConfig[] = [
     children: [
       {
         path: '/home',
-        exact: true,
         component: Home,
       },
       {
         path: '/dropdown',
-        exact: true,
         component: Dropdown,
       },
       {
         path: '/dropdown-example',
-        exact: true,
         component: DropdownExample,
       },
       {
         path: '/select',
-        exact: true,
         component: Select,
       },
       {
         path: '/select-example',
-        exact: true,
         component: SelectExample,
       },
       {
