@@ -9,12 +9,19 @@ const Dropdown = lazy(() => import('@/components/Dropdown'));
 const DropdownExample = lazy(() => import('@/components/DropdownExample'));
 const Select = lazy(() => import('@/components/Select'));
 const SelectExample = lazy(() => import('@/components/SelectExample'));
+const Switch = lazy(() => import('@/components/Switch'));
+const SwitchExample = lazy(() => import('@/components/SwitchExample'));
 
 const routerConfig: IRouterConfig[] = [
   {
     path: '/',
     component: BasicLayout,
     children: [
+      {
+        path: '/',
+        exact: true,
+        redirect: '/dropdown',
+      },
       {
         path: '/home',
         component: Home,
@@ -44,9 +51,12 @@ const routerConfig: IRouterConfig[] = [
         component: AutocompleteExample,
       },
       {
-        path: '/',
-        exact: true,
-        redirect: '/dropdown',
+        path: '/switch',
+        component: Switch,
+      },
+      {
+        path: '/switch-example',
+        component: SwitchExample,
       },
       {
         component: NotFound,
