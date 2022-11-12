@@ -15,6 +15,8 @@ const Disclosure = lazy(() => import('@/components/Disclosure'));
 const DisclosureExample = lazy(() => import('@/components/DisclosureExample'));
 const Dialog = lazy(() => import('@/components/Dialog'));
 const DialogExample = lazy(() => import('@/components/DialogExample'));
+const Popover = lazy(() => import('@/components/Popover'));
+const PopoverExample = lazy(() => import('@/components/PopoverExample'));
 
 const routerConfig: IRouterConfig[] = [
   {
@@ -77,6 +79,14 @@ const routerConfig: IRouterConfig[] = [
       {
         path: '/dialog-example',
         component: DialogExample,
+      },
+      {
+        path: '/popover',
+        component: Popover,
+      },
+      {
+        path: '/popover-example',
+        component: PopoverExample,
       },
       {
         component: NotFound,
