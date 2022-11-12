@@ -13,6 +13,8 @@ const Switch = lazy(() => import('@/components/Switch'));
 const SwitchExample = lazy(() => import('@/components/SwitchExample'));
 const Disclosure = lazy(() => import('@/components/Disclosure'));
 const DisclosureExample = lazy(() => import('@/components/DisclosureExample'));
+const Dialog = lazy(() => import('@/components/Dialog'));
+const DialogExample = lazy(() => import('@/components/DialogExample'));
 
 const routerConfig: IRouterConfig[] = [
   {
@@ -67,6 +69,14 @@ const routerConfig: IRouterConfig[] = [
       {
         path: '/disclosure-example',
         component: DisclosureExample,
+      },
+      {
+        path: '/dialog',
+        component: Dialog,
+      },
+      {
+        path: '/dialog-example',
+        component: DialogExample,
       },
       {
         component: NotFound,
