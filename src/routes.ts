@@ -21,6 +21,8 @@ const RadioGroup = lazy(() => import('@/components/RadioGroup'));
 const RadioGroupExample = lazy(() => import('@/components/RadioGroupExample'));
 const Tabs = lazy(() => import('@/components/Tabs'));
 const TabsExample = lazy(() => import('@/components/TabsExample'));
+const Transition = lazy(() => import('@/components/Transition'));
+const TransitionExample = lazy(() => import('@/components/TransitionExample'));
 
 const routerConfig: IRouterConfig[] = [
   {
@@ -107,6 +109,14 @@ const routerConfig: IRouterConfig[] = [
       {
         path: '/tabs-example',
         component: TabsExample,
+      },
+      {
+        path: '/transition',
+        component: Transition,
+      },
+      {
+        path: '/transition-example',
+        component: TransitionExample,
       },
       {
         component: NotFound,
