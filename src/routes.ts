@@ -19,6 +19,8 @@ const Popover = lazy(() => import('@/components/Popover'));
 const PopoverExample = lazy(() => import('@/components/PopoverExample'));
 const RadioGroup = lazy(() => import('@/components/RadioGroup'));
 const RadioGroupExample = lazy(() => import('@/components/RadioGroupExample'));
+const Tabs = lazy(() => import('@/components/Tabs'));
+const TabsExample = lazy(() => import('@/components/TabsExample'));
 
 const routerConfig: IRouterConfig[] = [
   {
@@ -97,6 +99,14 @@ const routerConfig: IRouterConfig[] = [
       {
         path: '/radio-group-example',
         component: RadioGroupExample,
+      },
+      {
+        path: '/tabs',
+        component: Tabs,
+      },
+      {
+        path: '/tabs-example',
+        component: TabsExample,
       },
       {
         component: NotFound,
