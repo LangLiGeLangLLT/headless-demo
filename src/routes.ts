@@ -36,86 +36,107 @@ const routerConfig: IRouterConfig[] = [
       },
       {
         path: '/home',
+        exact: true,
         component: Home,
       },
       {
         path: '/dropdown',
+        exact: true,
         component: Dropdown,
       },
       {
         path: '/dropdown-example',
+        exact: true,
         component: DropdownExample,
       },
       {
         path: '/select',
+        exact: true,
         component: Select,
       },
       {
         path: '/select-example',
+        exact: true,
         component: SelectExample,
       },
       {
         path: '/autocomplete',
+        exact: true,
         component: Autocomplete,
       },
       {
         path: '/autocomplete-example',
+        exact: true,
         component: AutocompleteExample,
       },
       {
         path: '/switch',
+        exact: true,
         component: Switch,
       },
       {
         path: '/switch-example',
+        exact: true,
         component: SwitchExample,
       },
       {
         path: '/disclosure',
+        exact: true,
         component: Disclosure,
       },
       {
         path: '/disclosure-example',
+        exact: true,
         component: DisclosureExample,
       },
       {
         path: '/dialog',
+        exact: true,
         component: Dialog,
       },
       {
         path: '/dialog-example',
+        exact: true,
         component: DialogExample,
       },
       {
         path: '/popover',
+        exact: true,
         component: Popover,
       },
       {
         path: '/popover-example',
+        exact: true,
         component: PopoverExample,
       },
       {
         path: '/radio-group',
+        exact: true,
         component: RadioGroup,
       },
       {
         path: '/radio-group-example',
+        exact: true,
         component: RadioGroupExample,
       },
       {
         path: '/tabs',
+        exact: true,
         component: Tabs,
       },
       {
         path: '/tabs-example',
+        exact: true,
         component: TabsExample,
       },
       {
         path: '/transition',
+        exact: true,
         component: Transition,
       },
       {
         path: '/transition-example',
+        exact: true,
         component: TransitionExample,
       },
       {
